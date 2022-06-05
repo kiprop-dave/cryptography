@@ -17,7 +17,7 @@ def encrypt(text,s):
 	return result
 
 #check the above function
-text = (input("Enter a number: "))
+text = (input("Enter text: "))
 s = int(input("Enter shift key: "))
 print ("Text : " + text)
 print ("Shift : " + str(s))
